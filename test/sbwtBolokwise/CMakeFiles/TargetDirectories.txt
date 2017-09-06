@@ -1,0 +1,3 @@
+/home/tongust/Program/cpp/sbwt/sbwa-buildIndex/test/sbwtBolokwise/CMakeFiles/edit_cache.dir
+/home/tongust/Program/cpp/sbwt/sbwa-buildIndex/test/sbwtBolokwise/CMakeFiles/rebuild_cache.dir
+/home/tongust/Program/cpp/sbwt/sbwa-buildIndex/test/sbwtBolokwise/CMakeFiles/BuildIndexBlockwise.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++     -std=c++11   CMakeFiles/BuildIndexBlockwise.dir/test.cpp.o CMakeFiles/BuildIndexBlockwise.dir/src/sbwtBlockwise.cpp.o  -o BuildIndexBlockwise 

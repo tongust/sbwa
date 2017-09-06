@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsbwtBlockwiselib.a  CMakeFiles/sbwtBlockwiselib.dir/scr/sbwtBlockwise.o
+/usr/bin/ranlib libsbwtBlockwiselib.a

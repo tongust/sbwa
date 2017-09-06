@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14  -Wall -std=gnu++14   CMakeFiles/ZEBRA.dir/buildIndexMain.cpp.o  -o ZEBRA -rdynamic -lrt -lpthread -lz 

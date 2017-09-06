@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tongust/Program/cpp/sbwt/sbwa-buildIndex/test/sbwtBolokwise/scr/sbwtBlockwise.cpp
+sbwtBlockwise.h
+/home/tongust/Program/cpp/sbwt/sbwa-buildIndex/test/sbwtBolokwise/scr/sbwtBlockwise.h
+
+/home/tongust/Program/cpp/sbwt/sbwa-buildIndex/test/sbwtBolokwise/test.cpp
+iostream
+-
+sbwtBlockwise.h
+/home/tongust/Program/cpp/sbwt/sbwa-buildIndex/test/sbwtBolokwise/sbwtBlockwise.h
+
+include/sbwtBlockwise.h
+

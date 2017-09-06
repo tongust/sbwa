@@ -1,0 +1,22 @@
+Performing C++ SOURCE FILE Test CXX14_BUILTIN failed with the following output:
+Change Dir: /home/tongust/Program/cpp/sbwt/sbwa-buildIndex/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8529c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8529c.dir/build.make CMakeFiles/cmTC_8529c.dir/build
+make[1]: Entering directory '/home/tongust/Program/cpp/sbwt/sbwa-buildIndex/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8529c.dir/src.cxx.o
+/usr/bin/c++     -DCXX14_BUILTIN   -o CMakeFiles/cmTC_8529c.dir/src.cxx.o -c /home/tongust/Program/cpp/sbwt/sbwa-buildIndex/CMakeFiles/CMakeTmp/src.cxx
+/home/tongust/Program/cpp/sbwt/sbwa-buildIndex/CMakeFiles/CMakeTmp/src.cxx:2:6: error: #error NOCXX14
+     #error NOCXX14
+      ^
+CMakeFiles/cmTC_8529c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8529c.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_8529c.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/tongust/Program/cpp/sbwt/sbwa-buildIndex/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8529c/fast' failed
+make: *** [cmTC_8529c/fast] Error 2
+
+Source file was:
+#if !defined(__cplusplus) || (__cplusplus < 201300L)
+    #error NOCXX14
+    #endif
+    int main() {}

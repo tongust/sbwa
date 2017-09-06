@@ -1,0 +1,1 @@
+/usr/bin/c++     -std=c++14   CMakeFiles/prog.dir/test.o CMakeFiles/prog.dir/scr/sbwtBlockwise.o  -o prog -rdynamic 
